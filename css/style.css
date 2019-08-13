@@ -32,3 +32,12 @@ img {
   background-color: #F8EDBC;
 
 }
+
+h3 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+h3:hover {
+  text-decoration: underline;
+}
