@@ -2,11 +2,21 @@ $(document).ready(function() {
   $("img").click(function() {
     $("img").fadeOut();
   });
-//Javascript stuff here
-$(".name").click(function() {
-  $("img").fadeIn();
 
-});
+  $("#BluthsName").click(function() {
+    $("#BluthsImg").fadeIn();
+  });
 
+  $("#LucilleName").click(function() {
+    $("#LucilleImg").fadeIn();
+  });
+
+  $("#BarryName").click(function(){
+    $("#BarryImg").fadeTo(1000, 0.5);
+  });
+
+  $("#GeneName").click(function(){
+    $("#GeneImg").slideDown();
+  });
 
 });
